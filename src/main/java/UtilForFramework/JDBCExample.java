@@ -8,7 +8,7 @@ public class JDBCExample {
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(
-                "jdbc:oracle:thin:@localhost:1521:orcl", "system", "Password123")) {
+                "", "", "")) {
 
             if (conn != null) {
                 System.out.println("Connected to the database!");
