@@ -17,7 +17,7 @@ public class FindTheRepeatingAndTheMissing {
         list2.addAll(list1);
         Collections.sort(list2);
         System.out.println("original items :" +list1 );
-        System.out.println("After sorting: " + list2 );
+        System.out.println("After arraysSorting: " + list2 );
         List<Integer> list3 = list2.stream().distinct().collect(Collectors.toList());
         System.out.println(list3 );
 

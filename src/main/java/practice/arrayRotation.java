@@ -10,9 +10,8 @@ import java.util.Scanner;
             Scanner sc= new Scanner(System.in);
             System.out.print("Enter rotate by - ");
             int rotateBy= sc.nextInt();
-
-                int[] rotatedArray = rotateArray(arr, rotateBy);
-                for( i =0; i< arr.length; i++) {
+            int[] rotatedArray = rotateArray(arr, rotateBy);
+            for( i =0; i< arr.length; i++) {
                     System.out.println(rotatedArray[i]);
                 }
             }

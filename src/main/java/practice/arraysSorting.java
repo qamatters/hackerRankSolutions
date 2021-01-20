@@ -3,7 +3,7 @@ package practice;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class sorting {
+public class arraysSorting {
 
     public static void main(String[] args) {
 
