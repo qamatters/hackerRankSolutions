@@ -18,8 +18,6 @@ public class printFirstCharacterForAllWords {
         long totalTime = endTime - startTime;
         double totalTimeInSecond = (double) totalTime / 1_000_000_000;
         System.out.println(totalTimeInSecond + " seconds");
-
-
     }
 
     private static String firstCharacter(String words) {
